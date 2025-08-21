@@ -1,5 +1,6 @@
-## 1.0.5
+## 1.0.0
 - Initial release 🎉
-- Added customizable payment dialog.
-- Added support for multiple payment methods.
-- Added screenshots in README.
+- Normal loading overlay with blur effect
+- Customizable `CircularProgressIndicator`
+- Progress loader with percentage display
+- Easy to show and dismiss

@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/programmerhasan/easyloading/raw/master/screenshots/02.png" alt="Payment dialog for Flutter" width="120" style="border-radius: 50%;" />
+  <img src="https://github.com/programmerhasan/easyloading/raw/master/screenshots/02.png" alt="Loading for Flutter" width="120" style="border-radius: 50%;" />
 </p>
 
 
