@@ -1,0 +1,39 @@
+name: easyloading
+description: A simple and customizable Flutter package for showing loading indicators.
+version: 1.0.0
+homepage: https://github.com/programmerhasan/easyloading
+repository: https://github.com/programmerhasan/easyloading
+issue_tracker: https://github.com/programmerhasan/easyloading/issues
+documentation: https://pub.dev/packages/easyloading
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+topics:
+  - flutter
+  - loading
+  - overlay
+  - progress-indicator
+  - easy-loading
+
+screenshots:
+  - description: "Easy Loading Logo"
+    path: screenshots/01.png
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
