@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:easyloading_plus/easyloading.dart';
+import 'package:easyloading_plus/easyloading_plus.dart';
 
 void main() {
   testWidgets('EasyLoading shows and dismisses loader', (WidgetTester tester) async {

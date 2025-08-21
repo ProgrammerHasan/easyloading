@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:easyloading_plus/easyloading.dart';
+import 'package:easyloading_plus/easyloading_plus.dart';
 
 void main() {
   runApp(const MyApp());
