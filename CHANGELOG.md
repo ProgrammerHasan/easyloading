@@ -1,4 +1,4 @@
-## 1.0.1
+## 1.0.2
 - Initial release 🎉
 - Normal loading overlay with blur effect
 - Customizable `CircularProgressIndicator`
