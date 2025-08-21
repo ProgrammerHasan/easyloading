@@ -18,14 +18,14 @@ class EasyLoading {
           if (!isBlur)
             ModalBarrier(
               dismissible: false,
-              color: Colors.black.withOpacity(0.2),
+              color: Colors.black.withValues(alpha: 51)
             ),
           if (isBlur)
             Positioned.fill(
               child: BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
                 child: Container(
-                  color: Colors.black.withOpacity(0.2),
+                  color: Colors.black.withValues(alpha: 51)
                 ),
               ),
             ),
@@ -35,16 +35,15 @@ class EasyLoading {
               child: BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
                 child: Container(
-                  padding: const EdgeInsets.symmetric(
-                      vertical: 16.0, horizontal: 16.0),
+                  padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12.0),
                     gradient: LinearGradient(
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
                       colors: [
-                        Colors.green.withOpacity(0.4),
-                        Colors.white.withOpacity(0.4),
+                        Colors.green.withValues(alpha: 102),
+                        Colors.white.withValues(alpha: 102),
                       ],
                     ),
                   ),
@@ -54,9 +53,8 @@ class EasyLoading {
                     child: progressIndicatorWidget ??
                         CircularProgressIndicator(
                           strokeWidth: 4,
-                          backgroundColor: Colors.white.withOpacity(0.8),
-                          valueColor:
-                          const AlwaysStoppedAnimation<Color>(Colors.green),
+                          backgroundColor: Colors.white.withValues(alpha: 204),
+                          valueColor: const AlwaysStoppedAnimation<Color>(Colors.green),
                         ),
                   ),
                 ),
@@ -121,7 +119,7 @@ class EasyLoading {
         Positioned.fill(
           child: BackdropFilter(
             filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
-            child: Container(color: Colors.black.withOpacity(0.2)),
+            child: Container(color: Colors.black.withValues(alpha: 51)),
           ),
         ),
         Center(child: child),
@@ -144,7 +142,7 @@ class EasyLoading {
           padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
-            color: Colors.white.withOpacity(0.6),
+            color:Colors.white.withValues(alpha: 153),
           ),
           child: child,
         ),
