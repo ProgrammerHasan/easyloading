@@ -29,7 +29,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  easyloading: ^1.0.0
+  easyloading_plus: ^1.0.0
 ```
 Then run:
 ```
@@ -58,7 +58,7 @@ See example/main.dart for a full working example.
 ```dart
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:easyloading/easyloading.dart';
+import 'package:easyloading_plus/easyloading.dart';
 
 void main() {
   runApp(const MyApp());
