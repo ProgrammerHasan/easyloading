@@ -40,15 +40,15 @@ flutter pub get
 
 Show normal loader
 ```agsl
-Loading.show(context);
+EasyLoading.show(context);
 ```
 Show progress loader
 ```agsl
-Loading.showProgress(context, 50); // 50% complete
+EasyLoading.showProgress(context, 50); // 50% complete
 ```
 Dismiss loader
 ```agsl
-Loading.dismiss();
+EasyLoading.dismiss();
 ```
 
 ### Example
